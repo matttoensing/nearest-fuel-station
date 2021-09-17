@@ -1,9 +1,9 @@
 require 'rails_helper'
 
  RSpec.describe 'seaech index' do
-   it 'user can perform a search and find nearest fueling station with attributes and distance to station with travel time' do
-     station = StationFacade.create_station('')
-     directions = DirectionsFacade.create_directions('')
+   it 'user can perform a search and find nearest fueling station with attributes and distance to station with travel time', :vcr do
+     station = StationFacade.create_station('5224 W 25th Ave, Denver, CO 80214')
+     # directions = DirectionsFacade.create_directions('')
 
      visit '/'
 
