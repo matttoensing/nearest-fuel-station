@@ -5,7 +5,7 @@ require 'rails_helper'
      attributes = {
        distance: 0.423,
        formattedTime: "00:01:16",
-       legs: [maneuvers: [{narrative: "Start out going east on W 25th Ave toward Sheridan Blvd/CO-95."}, {narrative: "Turn right onto Sheridan Blvd/CO-95."}, {narrative: "1985 SHERIDAN BLVD is on the right."}]]
+       legs: [maneuvers: ["Start out going east on W 25th Ave toward Sheridan Blvd/CO-95.", "Turn right onto Sheridan Blvd/CO-95.", "1985 SHERIDAN BLVD is on the right."]]
      }
 
      route = Route.new(attributes)

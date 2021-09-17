@@ -19,7 +19,7 @@ http_interactions:
       message: OK
     headers:
       Date:
-      - Fri, 17 Sep 2021 16:42:33 GMT
+      - Fri, 17 Sep 2021 17:15:39 GMT
       Content-Type:
       - application/json; charset=utf-8
       Transfer-Encoding:
@@ -33,7 +33,7 @@ http_interactions:
       X-Ratelimit-Limit:
       - '1000'
       X-Ratelimit-Remaining:
-      - '991'
+      - '984'
       X-Frame-Options:
       - SAMEORIGIN
       X-Xss-Protection:
@@ -53,13 +53,227 @@ http_interactions:
       Access-Control-Max-Age:
       - '86400'
       Last-Modified:
-      - Fri, 17 Sep 2021 16:42:33 GMT
+      - Fri, 17 Sep 2021 17:15:39 GMT
       Cache-Control:
       - max-age=0, private, must-revalidate
       X-Request-Id:
-      - 5674609342067aa5d1d9d40727a3a317
+      - 6a7df37776f49f96cd5e5e8c781caee9
       X-Runtime:
-      - '0.213192'
+      - '0.260206'
+      Strict-Transport-Security:
+      - max-age=31536000; preload
+      - max-age=31622400
+      Public-Key-Pins:
+      - pin-sha256="X3pGTSOuJeEVw989IJ/cEtXUEmy52zs1TZQrU06KUKg=" max-age=15552000;
+        includeSubDomains
+      Age:
+      - '1'
+      Via:
+      - https/1.1 api-umbrella (ApacheTrafficServer [cMsSf ])
+      X-Cache:
+      - MISS
+    body:
+      encoding: ASCII-8BIT
+      string: '{"latitude":39.753014,"longitude":-105.053999,"location_country":"US","precision":{"value":9,"name":"premise","types":["premise"]},"station_locator_url":"https://afdc.energy.gov/stations/","total_results":211,"station_counts":{"total":490,"fuels":{"BD":{"total":0},"E85":{"total":2},"ELEC":{"total":483,"stations":{"total":204}},"HY":{"total":0},"LNG":{"total":0},"CNG":{"total":0},"LPG":{"total":5}}},"offset":0,"fuel_stations":[{"access_code":"public","access_days_time":"24
+        hours daily","access_detail_code":null,"cards_accepted":null,"date_last_confirmed":"2021-09-02","expected_date":null,"fuel_type_code":"ELEC","groups_with_access_code":"Public","id":152119,"open_date":"2020-01-04","owner_type_code":null,"status_code":"E","station_name":"Target
+        T2225","station_phone":"833-632-2778","updated_at":"2021-09-02T00:52:36Z","facility_type":null,"geocode_status":"GPS","latitude":39.745826,"longitude":-105.054796,"city":"Edgewater","intersection_directions":null,"plus4":null,"state":"CO","street_address":"1985
+        Sheridan Blvd.","zip":"80214","country":"US","bd_blends":null,"cng_dispenser_num":null,"cng_fill_type_code":null,"cng_psi":null,"cng_renewable_source":null,"cng_total_compression":null,"cng_total_storage":null,"cng_vehicle_class":null,"e85_blender_pump":null,"e85_other_ethanol_blends":null,"ev_connector_types":["CHADEMO","J1772COMBO"],"ev_dc_fast_num":6,"ev_level1_evse_num":null,"ev_level2_evse_num":null,"ev_network":"Electrify
+        America","ev_network_web":"https://www.electrifyamerica.com/","ev_other_evse":null,"ev_pricing":null,"ev_renewable_source":null,"hy_is_retail":null,"hy_pressures":null,"hy_standards":null,"hy_status_link":null,"lng_renewable_source":null,"lng_vehicle_class":null,"lpg_primary":null,"lpg_nozzle_types":null,"ng_fill_type_code":null,"ng_psi":null,"ng_vehicle_class":null,"access_days_time_fr":null,"intersection_directions_fr":null,"bd_blends_fr":null,"groups_with_access_code_fr":"Public","ev_pricing_fr":null,"ev_network_ids":{"station":["130"],"posts":["200023-01","200023-02","200023-03","200023-04","200023-05","200023-06"]},"distance":0.49772,"distance_km":0.801},{"access_code":"public","access_days_time":"Mon
+        6:00am - 6:00pm; Tue 6:00am - 6:00pm; Wed 6:00am - 6:00pm; Thu 6:00am - 6:00pm;
+        Fri 6:00am - 6:00pm; Sat 6:00am - 6:00pm; Sun 6:00am - 6:00pm","access_detail_code":null,"cards_accepted":null,"date_last_confirmed":"2021-09-17","expected_date":null,"fuel_type_code":"ELEC","groups_with_access_code":"Public","id":182831,"open_date":"2021-01-27","owner_type_code":null,"status_code":"E","station_name":"EDGEWATER
+        CC NORTH CC","station_phone":"888-758-4389","updated_at":"2021-09-17T00:31:20Z","facility_type":null,"geocode_status":"GPS","latitude":39.745665,"longitude":-105.061799,"city":"Edgewater","intersection_directions":null,"plus4":null,"state":"CO","street_address":"1810
+        Harlan St","zip":"80214","country":"US","bd_blends":null,"cng_dispenser_num":null,"cng_fill_type_code":null,"cng_psi":null,"cng_renewable_source":null,"cng_total_compression":null,"cng_total_storage":null,"cng_vehicle_class":null,"e85_blender_pump":null,"e85_other_ethanol_blends":null,"ev_connector_types":["J1772"],"ev_dc_fast_num":null,"ev_level1_evse_num":null,"ev_level2_evse_num":2,"ev_network":"ChargePoint
+        Network","ev_network_web":"http://www.chargepoint.com/","ev_other_evse":null,"ev_pricing":null,"ev_renewable_source":null,"hy_is_retail":null,"hy_pressures":null,"hy_standards":null,"hy_status_link":null,"lng_renewable_source":null,"lng_vehicle_class":null,"lpg_primary":null,"lpg_nozzle_types":null,"ng_fill_type_code":null,"ng_psi":null,"ng_vehicle_class":null,"access_days_time_fr":null,"intersection_directions_fr":null,"bd_blends_fr":null,"groups_with_access_code_fr":"Public","ev_pricing_fr":null,"ev_network_ids":{"station":["USCPIL690401"],"posts":["1083601","1083611"]},"distance":0.65545,"distance_km":1.05484},{"access_code":"public","access_days_time":"Mon
+        6:00am - 7:30pm; Tue 6:00am - 7:30pm; Wed 6:00am - 7:30pm; Thu 6:00am - 7:30pm;
+        Fri 6:00am - 7:30pm; Sat 6:00am - 7:30pm; Sun 6:00am - 7:30pm","access_detail_code":null,"cards_accepted":null,"date_last_confirmed":"2021-09-17","expected_date":null,"fuel_type_code":"ELEC","groups_with_access_code":"Public","id":182832,"open_date":"2021-01-27","owner_type_code":null,"status_code":"E","station_name":"EDGEWATER
+        CC SOUTH CC","station_phone":"888-758-4389","updated_at":"2021-09-17T00:31:20Z","facility_type":null,"geocode_status":"GPS","latitude":39.745619,"longitude":-105.061811,"city":"Edgewater","intersection_directions":null,"plus4":null,"state":"CO","street_address":"1800
+        Harlan St","zip":"80214","country":"US","bd_blends":null,"cng_dispenser_num":null,"cng_fill_type_code":null,"cng_psi":null,"cng_renewable_source":null,"cng_total_compression":null,"cng_total_storage":null,"cng_vehicle_class":null,"e85_blender_pump":null,"e85_other_ethanol_blends":null,"ev_connector_types":["J1772"],"ev_dc_fast_num":null,"ev_level1_evse_num":null,"ev_level2_evse_num":2,"ev_network":"ChargePoint
+        Network","ev_network_web":"http://www.chargepoint.com/","ev_other_evse":null,"ev_pricing":null,"ev_renewable_source":null,"hy_is_retail":null,"hy_pressures":null,"hy_standards":null,"hy_status_link":null,"lng_renewable_source":null,"lng_vehicle_class":null,"lpg_primary":null,"lpg_nozzle_types":null,"ng_fill_type_code":null,"ng_psi":null,"ng_vehicle_class":null,"access_days_time_fr":null,"intersection_directions_fr":null,"bd_blends_fr":null,"groups_with_access_code_fr":"Public","ev_pricing_fr":null,"ev_network_ids":{"station":["USCPIL690421"],"posts":["920561","920571"]},"distance":0.65831,"distance_km":1.05945},{"access_code":"public","access_days_time":"24
+        hours daily","access_detail_code":null,"cards_accepted":null,"date_last_confirmed":"2021-09-17","expected_date":null,"fuel_type_code":"ELEC","groups_with_access_code":"Public","id":155133,"open_date":"2020-04-02","owner_type_code":null,"status_code":"E","station_name":"LAKEHOUSE
+        LAKEHOUSE ST2","station_phone":"888-758-4389","updated_at":"2021-09-17T00:31:20Z","facility_type":null,"geocode_status":"GPS","latitude":39.743549,"longitude":-105.04226,"city":"Denver","intersection_directions":null,"plus4":null,"state":"CO","street_address":"4200
+        west 17th ave","zip":"80204","country":"US","bd_blends":null,"cng_dispenser_num":null,"cng_fill_type_code":null,"cng_psi":null,"cng_renewable_source":null,"cng_total_compression":null,"cng_total_storage":null,"cng_vehicle_class":null,"e85_blender_pump":null,"e85_other_ethanol_blends":null,"ev_connector_types":["J1772"],"ev_dc_fast_num":null,"ev_level1_evse_num":null,"ev_level2_evse_num":2,"ev_network":"ChargePoint
+        Network","ev_network_web":"http://www.chargepoint.com/","ev_other_evse":null,"ev_pricing":null,"ev_renewable_source":null,"hy_is_retail":null,"hy_pressures":null,"hy_standards":null,"hy_status_link":null,"lng_renewable_source":null,"lng_vehicle_class":null,"lpg_primary":null,"lpg_nozzle_types":null,"ng_fill_type_code":null,"ng_psi":null,"ng_vehicle_class":null,"access_days_time_fr":null,"intersection_directions_fr":null,"bd_blends_fr":null,"groups_with_access_code_fr":"Public","ev_pricing_fr":null,"ev_network_ids":{"station":["USCPIL2468221"],"posts":["3208681","3208691"]},"distance":0.90401,"distance_km":1.45486},{"access_code":"public","access_days_time":"24
+        hours daily","access_detail_code":null,"cards_accepted":null,"date_last_confirmed":"2021-09-17","expected_date":null,"fuel_type_code":"ELEC","groups_with_access_code":"Public","id":175479,"open_date":"2021-01-27","owner_type_code":null,"status_code":"E","station_name":"LAKEHOUSE
+        LAKEHOUSE ST1","station_phone":"888-758-4389","updated_at":"2021-09-17T00:31:20Z","facility_type":null,"geocode_status":"GPS","latitude":39.743952,"longitude":-105.039824,"city":"Denver","intersection_directions":null,"plus4":null,"state":"CO","street_address":"4200
+        W 17th Ave","zip":"80212","country":"US","bd_blends":null,"cng_dispenser_num":null,"cng_fill_type_code":null,"cng_psi":null,"cng_renewable_source":null,"cng_total_compression":null,"cng_total_storage":null,"cng_vehicle_class":null,"e85_blender_pump":null,"e85_other_ethanol_blends":null,"ev_connector_types":["J1772"],"ev_dc_fast_num":null,"ev_level1_evse_num":null,"ev_level2_evse_num":2,"ev_network":"ChargePoint
+        Network","ev_network_web":"http://www.chargepoint.com/","ev_other_evse":null,"ev_pricing":null,"ev_renewable_source":null,"hy_is_retail":null,"hy_pressures":null,"hy_standards":null,"hy_status_link":null,"lng_renewable_source":null,"lng_vehicle_class":null,"lpg_primary":null,"lpg_nozzle_types":null,"ng_fill_type_code":null,"ng_psi":null,"ng_vehicle_class":null,"access_days_time_fr":null,"intersection_directions_fr":null,"bd_blends_fr":null,"groups_with_access_code_fr":"Public","ev_pricing_fr":null,"ev_network_ids":{"station":["USCPIL2465671"],"posts":["3203831","3203841"]},"distance":0.98017,"distance_km":1.57743},{"access_code":"public","access_days_time":"MO:
+        Not Specified; TU: Not Specified; WE: Not Specified; TH: Not Specified; FR:
+        Not Specified; SA: Not Specified; SU: Not Specified","access_detail_code":null,"cards_accepted":null,"date_last_confirmed":"2021-09-17","expected_date":null,"fuel_type_code":"ELEC","groups_with_access_code":"Public","id":147975,"open_date":"2017-10-18","owner_type_code":null,"status_code":"E","station_name":"Regatta
+        Sloans Lake","station_phone":"800-663-5633","updated_at":"2021-09-17T00:22:33Z","facility_type":null,"geocode_status":"GPS","latitude":39.7418252,"longitude":-105.0413725,"city":"Denver","intersection_directions":null,"plus4":null,"state":"CO","street_address":"1550
+        Raleigh Street","zip":"80204","country":"US","bd_blends":null,"cng_dispenser_num":null,"cng_fill_type_code":null,"cng_psi":null,"cng_renewable_source":null,"cng_total_compression":null,"cng_total_storage":null,"cng_vehicle_class":null,"e85_blender_pump":null,"e85_other_ethanol_blends":null,"ev_connector_types":["J1772"],"ev_dc_fast_num":null,"ev_level1_evse_num":null,"ev_level2_evse_num":2,"ev_network":"SemaCharge
+        Network","ev_network_web":"https://semaconnect.com/","ev_other_evse":null,"ev_pricing":"FREE","ev_renewable_source":null,"hy_is_retail":null,"hy_pressures":null,"hy_standards":null,"hy_status_link":null,"lng_renewable_source":null,"lng_vehicle_class":null,"lpg_primary":null,"lpg_nozzle_types":null,"ng_fill_type_code":null,"ng_psi":null,"ng_vehicle_class":null,"access_days_time_fr":null,"intersection_directions_fr":null,"bd_blends_fr":null,"groups_with_access_code_fr":"Public","ev_pricing_fr":null,"ev_network_ids":{"station":["2025"],"posts":["4142","4143"]},"distance":1.02374,"distance_km":1.64755},{"access_code":"public","access_days_time":"8am-4:30pm
+        M-F","access_detail_code":null,"cards_accepted":"A Cash D M V","date_last_confirmed":"2020-11-09","expected_date":null,"fuel_type_code":"LPG","groups_with_access_code":"Public","id":15095,"open_date":"1999-07-08","owner_type_code":"P","status_code":"E","station_name":"Suburban
+        Propane","station_phone":"303-232-1273","updated_at":"2021-03-18T15:35:43Z","facility_type":"FUEL_RESELLER","geocode_status":"200-9","latitude":39.735897,"longitude":-105.060692,"city":"Lakewood","intersection_directions":"I-25
+        to 6th Ave, west on Sheridan","plus4":null,"state":"CO","street_address":"5725
+        W 11th Ave","zip":"80214","country":"US","bd_blends":null,"cng_dispenser_num":null,"cng_fill_type_code":null,"cng_psi":null,"cng_renewable_source":null,"cng_total_compression":null,"cng_total_storage":null,"cng_vehicle_class":null,"e85_blender_pump":null,"e85_other_ethanol_blends":null,"ev_connector_types":null,"ev_dc_fast_num":null,"ev_level1_evse_num":null,"ev_level2_evse_num":null,"ev_network":null,"ev_network_web":null,"ev_other_evse":null,"ev_pricing":null,"ev_renewable_source":null,"hy_is_retail":null,"hy_pressures":null,"hy_standards":null,"hy_status_link":null,"lng_renewable_source":null,"lng_vehicle_class":null,"lpg_primary":false,"lpg_nozzle_types":["ACME"],"ng_fill_type_code":null,"ng_psi":null,"ng_vehicle_class":null,"access_days_time_fr":null,"intersection_directions_fr":null,"bd_blends_fr":null,"groups_with_access_code_fr":"Public","ev_pricing_fr":null,"distance":1.23354,"distance_km":1.98519},{"access_code":"public","access_days_time":"Business
+        hours","access_detail_code":null,"cards_accepted":null,"date_last_confirmed":"2020-04-08","expected_date":null,"fuel_type_code":"ELEC","groups_with_access_code":"Public","id":94805,"open_date":"2016-08-03","owner_type_code":"P","status_code":"E","station_name":"Confluence
+        Ministries","station_phone":"866-816-7584","updated_at":"2021-03-11T23:22:17Z","facility_type":"PLACE_OF_WORSHIP","geocode_status":"200-9","latitude":39.738655,"longitude":-105.040134,"city":"Denver","intersection_directions":null,"plus4":null,"state":"CO","street_address":"1400
+        Quitman St","zip":"80204","country":"US","bd_blends":null,"cng_dispenser_num":null,"cng_fill_type_code":null,"cng_psi":null,"cng_renewable_source":null,"cng_total_compression":null,"cng_total_storage":null,"cng_vehicle_class":null,"e85_blender_pump":null,"e85_other_ethanol_blends":null,"ev_connector_types":["J1772"],"ev_dc_fast_num":null,"ev_level1_evse_num":null,"ev_level2_evse_num":1,"ev_network":"EV
+        Connect","ev_network_web":"http://evconnect.com/","ev_other_evse":null,"ev_pricing":null,"ev_renewable_source":null,"hy_is_retail":null,"hy_pressures":null,"hy_standards":null,"hy_status_link":null,"lng_renewable_source":null,"lng_vehicle_class":null,"lpg_primary":null,"lpg_nozzle_types":null,"ng_fill_type_code":null,"ng_psi":null,"ng_vehicle_class":null,"access_days_time_fr":null,"intersection_directions_fr":null,"bd_blends_fr":null,"groups_with_access_code_fr":"Public","ev_pricing_fr":null,"distance":1.23556,"distance_km":1.98844},{"access_code":"public","access_days_time":"MO:
+        Not Specified; TU: Not Specified; WE: Not Specified; TH: Not Specified; FR:
+        Not Specified; SA: Not Specified; SU: Not Specified","access_detail_code":null,"cards_accepted":null,"date_last_confirmed":"2021-09-17","expected_date":null,"fuel_type_code":"ELEC","groups_with_access_code":"Public","id":191528,"open_date":"2021-06-26","owner_type_code":null,"status_code":"E","station_name":"Wheat
+        Ridge City Hall","station_phone":"800-663-5633","updated_at":"2021-09-17T00:22:33Z","facility_type":null,"geocode_status":"GPS","latitude":39.7571186,"longitude":-105.0804929,"city":"Wheat
+        Ridge","intersection_directions":null,"plus4":null,"state":"CO","street_address":"7500
+        West 29th Avenue","zip":"80033","country":"US","bd_blends":null,"cng_dispenser_num":null,"cng_fill_type_code":null,"cng_psi":null,"cng_renewable_source":null,"cng_total_compression":null,"cng_total_storage":null,"cng_vehicle_class":null,"e85_blender_pump":null,"e85_other_ethanol_blends":null,"ev_connector_types":["J1772"],"ev_dc_fast_num":null,"ev_level1_evse_num":null,"ev_level2_evse_num":2,"ev_network":"SemaCharge
+        Network","ev_network_web":"https://semaconnect.com/","ev_other_evse":null,"ev_pricing":"FREE","ev_renewable_source":null,"hy_is_retail":null,"hy_pressures":null,"hy_standards":null,"hy_status_link":null,"lng_renewable_source":null,"lng_vehicle_class":null,"lpg_primary":null,"lpg_nozzle_types":null,"ng_fill_type_code":null,"ng_psi":null,"ng_vehicle_class":null,"access_days_time_fr":null,"intersection_directions_fr":null,"bd_blends_fr":null,"groups_with_access_code_fr":"Public","ev_pricing_fr":null,"ev_network_ids":{"station":["5374"],"posts":["13010","13013"]},"distance":1.43895,"distance_km":2.31577},{"access_code":"public","access_days_time":"MO:
+        Not Specified; TU: Not Specified; WE: Not Specified; TH: Not Specified; FR:
+        Not Specified; SA: Not Specified; SU: Not Specified","access_detail_code":null,"cards_accepted":null,"date_last_confirmed":"2021-09-17","expected_date":null,"fuel_type_code":"ELEC","groups_with_access_code":"Public","id":165057,"open_date":"2020-08-07","owner_type_code":null,"status_code":"E","station_name":"West38
+        Aparrtments","station_phone":"800-663-5633","updated_at":"2021-09-17T00:22:33Z","facility_type":null,"geocode_status":"GPS","latitude":39.7699356,"longitude":-105.0788955,"city":"Wheat
+        Ridge","intersection_directions":null,"plus4":null,"state":"CO","street_address":"7333
+        W 38th Ave","zip":"80033","country":"US","bd_blends":null,"cng_dispenser_num":null,"cng_fill_type_code":null,"cng_psi":null,"cng_renewable_source":null,"cng_total_compression":null,"cng_total_storage":null,"cng_vehicle_class":null,"e85_blender_pump":null,"e85_other_ethanol_blends":null,"ev_connector_types":["J1772"],"ev_dc_fast_num":null,"ev_level1_evse_num":null,"ev_level2_evse_num":5,"ev_network":"SemaCharge
+        Network","ev_network_web":"https://semaconnect.com/","ev_other_evse":null,"ev_pricing":"$1.00-$2.00/Hr
+        Variable Parking Fee, $0.17/kWh Energy Fee","ev_renewable_source":null,"hy_is_retail":null,"hy_pressures":null,"hy_standards":null,"hy_status_link":null,"lng_renewable_source":null,"lng_vehicle_class":null,"lpg_primary":null,"lpg_nozzle_types":null,"ng_fill_type_code":null,"ng_psi":null,"ng_vehicle_class":null,"access_days_time_fr":null,"intersection_directions_fr":null,"bd_blends_fr":null,"groups_with_access_code_fr":"Public","ev_pricing_fr":null,"ev_network_ids":{"station":["4719"],"posts":["10665","10666","10667","10668","10669"]},"distance":1.76641,"distance_km":2.84276},{"access_code":"public","access_days_time":"24
+        hours daily","access_detail_code":null,"cards_accepted":null,"date_last_confirmed":"2021-09-17","expected_date":null,"fuel_type_code":"ELEC","groups_with_access_code":"Public","id":78841,"open_date":"2016-10-04","owner_type_code":null,"status_code":"E","station_name":"MOLLYS
+        STATION 1","station_phone":"888-758-4389","updated_at":"2021-09-17T00:31:20Z","facility_type":null,"geocode_status":"GPS","latitude":39.77886,"longitude":-105.059865,"city":"Denver","intersection_directions":null,"plus4":null,"state":"CO","street_address":"5809
+        W 44th Ave","zip":"80212","country":"US","bd_blends":null,"cng_dispenser_num":null,"cng_fill_type_code":null,"cng_psi":null,"cng_renewable_source":null,"cng_total_compression":null,"cng_total_storage":null,"cng_vehicle_class":null,"e85_blender_pump":null,"e85_other_ethanol_blends":null,"ev_connector_types":["J1772"],"ev_dc_fast_num":null,"ev_level1_evse_num":null,"ev_level2_evse_num":2,"ev_network":"ChargePoint
+        Network","ev_network_web":"http://www.chargepoint.com/","ev_other_evse":null,"ev_pricing":null,"ev_renewable_source":null,"hy_is_retail":null,"hy_pressures":null,"hy_standards":null,"hy_status_link":null,"lng_renewable_source":null,"lng_vehicle_class":null,"lpg_primary":null,"lpg_nozzle_types":null,"ng_fill_type_code":null,"ng_psi":null,"ng_vehicle_class":null,"access_days_time_fr":null,"intersection_directions_fr":null,"bd_blends_fr":null,"groups_with_access_code_fr":"Public","ev_pricing_fr":null,"ev_network_ids":{"station":["USCPIL157851"],"posts":["838691","838701"]},"distance":1.81028,"distance_km":2.91336},{"access_code":"public","access_days_time":"24
+        hours daily","access_detail_code":null,"cards_accepted":null,"date_last_confirmed":"2021-09-17","expected_date":null,"fuel_type_code":"ELEC","groups_with_access_code":"Public","id":81061,"open_date":"2017-01-30","owner_type_code":null,"status_code":"E","station_name":"MOLLYS
+        STATION 2","station_phone":"888-758-4389","updated_at":"2021-09-17T00:31:20Z","facility_type":null,"geocode_status":"GPS","latitude":39.778976,"longitude":-105.059883,"city":"Denver","intersection_directions":null,"plus4":null,"state":"CO","street_address":"4801
+        Fenton St","zip":"80212","country":"US","bd_blends":null,"cng_dispenser_num":null,"cng_fill_type_code":null,"cng_psi":null,"cng_renewable_source":null,"cng_total_compression":null,"cng_total_storage":null,"cng_vehicle_class":null,"e85_blender_pump":null,"e85_other_ethanol_blends":null,"ev_connector_types":["J1772"],"ev_dc_fast_num":null,"ev_level1_evse_num":null,"ev_level2_evse_num":2,"ev_network":"ChargePoint
+        Network","ev_network_web":"http://www.chargepoint.com/","ev_other_evse":null,"ev_pricing":null,"ev_renewable_source":null,"hy_is_retail":null,"hy_pressures":null,"hy_standards":null,"hy_status_link":null,"lng_renewable_source":null,"lng_vehicle_class":null,"lpg_primary":null,"lpg_nozzle_types":null,"ng_fill_type_code":null,"ng_psi":null,"ng_vehicle_class":null,"access_days_time_fr":null,"intersection_directions_fr":null,"bd_blends_fr":null,"groups_with_access_code_fr":"Public","ev_pricing_fr":null,"ev_network_ids":{"station":["USCPIL178267"],"posts":["239699","239701"]},"distance":1.81833,"distance_km":2.92632},{"access_code":"public","access_days_time":"Mon
+        8:00am - 5:00pm; Tue 8:00am - 5:00pm; Wed 8:00am - 5:00pm; Thu 8:00am - 5:00pm;
+        Fri 8:00am - 5:00pm; Sat 8:00am - 5:00pm; Sun 8:00am - 5:00pm","access_detail_code":null,"cards_accepted":null,"date_last_confirmed":"2021-09-17","expected_date":null,"fuel_type_code":"ELEC","groups_with_access_code":"Public","id":192994,"open_date":"2021-07-21","owner_type_code":null,"status_code":"E","station_name":"CDOT
+        L1 SOUTH STN","station_phone":"888-758-4389","updated_at":"2021-09-17T00:31:20Z","facility_type":null,"geocode_status":"GPS","latitude":39.738477,"longitude":-105.02404,"city":"Denver","intersection_directions":null,"plus4":null,"state":"CO","street_address":"2829
+        W Howard Pl","zip":"80204","country":"US","bd_blends":null,"cng_dispenser_num":null,"cng_fill_type_code":null,"cng_psi":null,"cng_renewable_source":null,"cng_total_compression":null,"cng_total_storage":null,"cng_vehicle_class":null,"e85_blender_pump":null,"e85_other_ethanol_blends":null,"ev_connector_types":["J1772"],"ev_dc_fast_num":null,"ev_level1_evse_num":null,"ev_level2_evse_num":2,"ev_network":"ChargePoint
+        Network","ev_network_web":"http://www.chargepoint.com/","ev_other_evse":null,"ev_pricing":null,"ev_renewable_source":null,"hy_is_retail":null,"hy_pressures":null,"hy_standards":null,"hy_status_link":null,"lng_renewable_source":null,"lng_vehicle_class":null,"lpg_primary":null,"lpg_nozzle_types":null,"ng_fill_type_code":null,"ng_psi":null,"ng_vehicle_class":null,"access_days_time_fr":null,"intersection_directions_fr":null,"bd_blends_fr":null,"groups_with_access_code_fr":"Public","ev_pricing_fr":null,"ev_network_ids":{"station":["USCPIL195325"],"posts":["263851","263853"]},"distance":1.88457,"distance_km":3.03292},{"access_code":"public","access_days_time":"24
+        hours daily","access_detail_code":null,"cards_accepted":null,"date_last_confirmed":"2021-09-17","expected_date":null,"fuel_type_code":"ELEC","groups_with_access_code":"Public","id":173221,"open_date":"2021-01-27","owner_type_code":null,"status_code":"E","station_name":"CDOT
+        HWRD VISITOR 1","station_phone":"888-758-4389","updated_at":"2021-09-17T00:31:20Z","facility_type":null,"geocode_status":"GPS","latitude":39.73825,"longitude":-105.023472,"city":"Denver","intersection_directions":null,"plus4":null,"state":"CO","street_address":"2829
+        W Howard Pl","zip":"80204","country":"US","bd_blends":null,"cng_dispenser_num":null,"cng_fill_type_code":null,"cng_psi":null,"cng_renewable_source":null,"cng_total_compression":null,"cng_total_storage":null,"cng_vehicle_class":null,"e85_blender_pump":null,"e85_other_ethanol_blends":null,"ev_connector_types":["J1772"],"ev_dc_fast_num":null,"ev_level1_evse_num":null,"ev_level2_evse_num":2,"ev_network":"ChargePoint
+        Network","ev_network_web":"http://www.chargepoint.com/","ev_other_evse":null,"ev_pricing":null,"ev_renewable_source":null,"hy_is_retail":null,"hy_pressures":null,"hy_standards":null,"hy_status_link":null,"lng_renewable_source":null,"lng_vehicle_class":null,"lpg_primary":null,"lpg_nozzle_types":null,"ng_fill_type_code":null,"ng_psi":null,"ng_vehicle_class":null,"access_days_time_fr":null,"intersection_directions_fr":null,"bd_blends_fr":null,"groups_with_access_code_fr":"Public","ev_pricing_fr":null,"ev_network_ids":{"station":["USCPIL189129"],"posts":["255045","255047"]},"distance":1.91852,"distance_km":3.08756},{"access_code":"public","access_days_time":"24
+        hours daily","access_detail_code":null,"cards_accepted":null,"date_last_confirmed":"2021-09-17","expected_date":null,"fuel_type_code":"ELEC","groups_with_access_code":"Public","id":98531,"open_date":"2018-05-25","owner_type_code":null,"status_code":"E","station_name":"CDOT
+        L1 NORTH STN","station_phone":"888-758-4389","updated_at":"2021-09-17T00:31:20Z","facility_type":null,"geocode_status":"GPS","latitude":39.738743,"longitude":-105.022746,"city":"Denver","intersection_directions":null,"plus4":null,"state":"CO","street_address":"2829
+        W Howard Pl","zip":"80204","country":"US","bd_blends":null,"cng_dispenser_num":null,"cng_fill_type_code":null,"cng_psi":null,"cng_renewable_source":null,"cng_total_compression":null,"cng_total_storage":null,"cng_vehicle_class":null,"e85_blender_pump":null,"e85_other_ethanol_blends":null,"ev_connector_types":["J1772"],"ev_dc_fast_num":null,"ev_level1_evse_num":null,"ev_level2_evse_num":2,"ev_network":"ChargePoint
+        Network","ev_network_web":"http://www.chargepoint.com/","ev_other_evse":null,"ev_pricing":null,"ev_renewable_source":null,"hy_is_retail":null,"hy_pressures":null,"hy_standards":null,"hy_status_link":null,"lng_renewable_source":null,"lng_vehicle_class":null,"lpg_primary":null,"lpg_nozzle_types":null,"ng_fill_type_code":null,"ng_psi":null,"ng_vehicle_class":null,"access_days_time_fr":null,"intersection_directions_fr":null,"bd_blends_fr":null,"groups_with_access_code_fr":"Public","ev_pricing_fr":null,"ev_network_ids":{"station":["USCPIL189185"],"posts":["255157","255159"]},"distance":1.93385,"distance_km":3.11223},{"access_code":"public","access_days_time":"24
+        hours daily","access_detail_code":null,"cards_accepted":null,"date_last_confirmed":"2021-09-17","expected_date":null,"fuel_type_code":"ELEC","groups_with_access_code":"Public","id":173222,"open_date":"2021-01-27","owner_type_code":null,"status_code":"E","station_name":"CDOT
+        L1 CNTR STN","station_phone":"888-758-4389","updated_at":"2021-09-17T00:31:20Z","facility_type":null,"geocode_status":"GPS","latitude":39.738597,"longitude":-105.022729,"city":"Denver","intersection_directions":null,"plus4":null,"state":"CO","street_address":"2829
+        W Howard Pl","zip":"80204","country":"US","bd_blends":null,"cng_dispenser_num":null,"cng_fill_type_code":null,"cng_psi":null,"cng_renewable_source":null,"cng_total_compression":null,"cng_total_storage":null,"cng_vehicle_class":null,"e85_blender_pump":null,"e85_other_ethanol_blends":null,"ev_connector_types":["J1772"],"ev_dc_fast_num":null,"ev_level1_evse_num":null,"ev_level2_evse_num":2,"ev_network":"ChargePoint
+        Network","ev_network_web":"http://www.chargepoint.com/","ev_other_evse":null,"ev_pricing":null,"ev_renewable_source":null,"hy_is_retail":null,"hy_pressures":null,"hy_standards":null,"hy_status_link":null,"lng_renewable_source":null,"lng_vehicle_class":null,"lpg_primary":null,"lpg_nozzle_types":null,"ng_fill_type_code":null,"ng_psi":null,"ng_vehicle_class":null,"access_days_time_fr":null,"intersection_directions_fr":null,"bd_blends_fr":null,"groups_with_access_code_fr":"Public","ev_pricing_fr":null,"ev_network_ids":{"station":["USCPIL195299"],"posts":["263799","263801"]},"distance":1.93978,"distance_km":3.12177},{"access_code":"public","access_days_time":"MO:
+        Not Specified; TU: Not Specified; WE: Not Specified; TH: Not Specified; FR:
+        Not Specified; SA: Not Specified; SU: Not Specified","access_detail_code":null,"cards_accepted":null,"date_last_confirmed":"2021-09-17","expected_date":null,"fuel_type_code":"ELEC","groups_with_access_code":"Public","id":147960,"open_date":"2016-09-16","owner_type_code":null,"status_code":"E","station_name":"2785
+        Speer Apartments","station_phone":"800-663-5633","updated_at":"2021-09-17T00:22:33Z","facility_type":null,"geocode_status":"GPS","latitude":39.7564541,"longitude":-105.0171538,"city":"Denver","intersection_directions":null,"plus4":null,"state":"CO","street_address":"2785
+        Speer Blvd.","zip":"80211","country":"US","bd_blends":null,"cng_dispenser_num":null,"cng_fill_type_code":null,"cng_psi":null,"cng_renewable_source":null,"cng_total_compression":null,"cng_total_storage":null,"cng_vehicle_class":null,"e85_blender_pump":null,"e85_other_ethanol_blends":null,"ev_connector_types":["J1772"],"ev_dc_fast_num":null,"ev_level1_evse_num":null,"ev_level2_evse_num":4,"ev_network":"SemaCharge
+        Network","ev_network_web":"https://semaconnect.com/","ev_other_evse":null,"ev_pricing":"FREE","ev_renewable_source":null,"hy_is_retail":null,"hy_pressures":null,"hy_standards":null,"hy_status_link":null,"lng_renewable_source":null,"lng_vehicle_class":null,"lpg_primary":null,"lpg_nozzle_types":null,"ng_fill_type_code":null,"ng_psi":null,"ng_vehicle_class":null,"access_days_time_fr":null,"intersection_directions_fr":null,"bd_blends_fr":null,"groups_with_access_code_fr":"Public","ev_pricing_fr":null,"ev_network_ids":{"station":["1531"],"posts":["2248","2249","2250","2251"]},"distance":1.97633,"distance_km":3.18059},{"access_code":"public","access_days_time":"24
+        hours daily","access_detail_code":null,"cards_accepted":null,"date_last_confirmed":"2021-09-17","expected_date":null,"fuel_type_code":"ELEC","groups_with_access_code":"Public","id":81637,"open_date":"2017-03-02","owner_type_code":null,"status_code":"E","station_name":"GRAND
+        PEAKS LOHI GOLD ST1","station_phone":"888-758-4389","updated_at":"2021-09-17T00:31:20Z","facility_type":null,"geocode_status":"GPS","latitude":39.760236,"longitude":-105.016544,"city":"Denver","intersection_directions":null,"plus4":null,"state":"CO","street_address":"2424
+        W Caithness Pl","zip":"80211","country":"US","bd_blends":null,"cng_dispenser_num":null,"cng_fill_type_code":null,"cng_psi":null,"cng_renewable_source":null,"cng_total_compression":null,"cng_total_storage":null,"cng_vehicle_class":null,"e85_blender_pump":null,"e85_other_ethanol_blends":null,"ev_connector_types":["J1772"],"ev_dc_fast_num":null,"ev_level1_evse_num":null,"ev_level2_evse_num":2,"ev_network":"ChargePoint
+        Network","ev_network_web":"http://www.chargepoint.com/","ev_other_evse":null,"ev_pricing":null,"ev_renewable_source":null,"hy_is_retail":null,"hy_pressures":null,"hy_standards":null,"hy_status_link":null,"lng_renewable_source":null,"lng_vehicle_class":null,"lpg_primary":null,"lpg_nozzle_types":null,"ng_fill_type_code":null,"ng_psi":null,"ng_vehicle_class":null,"access_days_time_fr":null,"intersection_directions_fr":null,"bd_blends_fr":null,"groups_with_access_code_fr":"Public","ev_pricing_fr":null,"ev_network_ids":{"station":["USCPIL176825"],"posts":["427061","427071"]},"distance":2.05574,"distance_km":3.30839},{"access_code":"public","access_days_time":"MO:
+        Not Specified; TU: Not Specified; WE: Not Specified; TH: Not Specified; FR:
+        Not Specified; SA: Not Specified; SU: Not Specified","access_detail_code":null,"cards_accepted":null,"date_last_confirmed":"2021-09-17","expected_date":null,"fuel_type_code":"ELEC","groups_with_access_code":"Public","id":195392,"open_date":"2021-09-06","owner_type_code":null,"status_code":"E","station_name":"Infinity
+        Lohi","station_phone":"800-663-5633","updated_at":"2021-09-17T00:22:33Z","facility_type":null,"geocode_status":"GPS","latitude":39.756862,"longitude":-105.0142387,"city":"Denver","intersection_directions":null,"plus4":null,"state":"CO","street_address":"2298
+        W. 28th Ave.","zip":"80211","country":"US","bd_blends":null,"cng_dispenser_num":null,"cng_fill_type_code":null,"cng_psi":null,"cng_renewable_source":null,"cng_total_compression":null,"cng_total_storage":null,"cng_vehicle_class":null,"e85_blender_pump":null,"e85_other_ethanol_blends":null,"ev_connector_types":["J1772"],"ev_dc_fast_num":null,"ev_level1_evse_num":null,"ev_level2_evse_num":6,"ev_network":"SemaCharge
+        Network","ev_network_web":"https://semaconnect.com/","ev_other_evse":null,"ev_pricing":"FREE","ev_renewable_source":null,"hy_is_retail":null,"hy_pressures":null,"hy_standards":null,"hy_status_link":null,"lng_renewable_source":null,"lng_vehicle_class":null,"lpg_primary":null,"lpg_nozzle_types":null,"ng_fill_type_code":null,"ng_psi":null,"ng_vehicle_class":null,"access_days_time_fr":null,"intersection_directions_fr":null,"bd_blends_fr":null,"groups_with_access_code_fr":"Public","ev_pricing_fr":null,"ev_network_ids":{"station":["3330"],"posts":["4701","4702","4703","4704","4705","4706"]},"distance":2.13383,"distance_km":3.43407},{"access_code":"public","access_days_time":"24
+        hours daily","access_detail_code":null,"cards_accepted":null,"date_last_confirmed":"2021-09-17","expected_date":null,"fuel_type_code":"ELEC","groups_with_access_code":"Public","id":173526,"open_date":"2021-01-27","owner_type_code":null,"status_code":"E","station_name":"NAMASTE
+        SOLAR 1 888 FEDERAL R","station_phone":"888-758-4389","updated_at":"2021-09-17T00:31:20Z","facility_type":null,"geocode_status":"GPS","latitude":39.730542,"longitude":-105.024841,"city":"Denver","intersection_directions":null,"plus4":null,"state":"CO","street_address":"888
+        Federal Blvd","zip":"80204","country":"US","bd_blends":null,"cng_dispenser_num":null,"cng_fill_type_code":null,"cng_psi":null,"cng_renewable_source":null,"cng_total_compression":null,"cng_total_storage":null,"cng_vehicle_class":null,"e85_blender_pump":null,"e85_other_ethanol_blends":null,"ev_connector_types":["J1772"],"ev_dc_fast_num":null,"ev_level1_evse_num":null,"ev_level2_evse_num":2,"ev_network":"ChargePoint
+        Network","ev_network_web":"http://www.chargepoint.com/","ev_other_evse":null,"ev_pricing":null,"ev_renewable_source":null,"hy_is_retail":null,"hy_pressures":null,"hy_standards":null,"hy_status_link":null,"lng_renewable_source":null,"lng_vehicle_class":null,"lpg_primary":null,"lpg_nozzle_types":null,"ng_fill_type_code":null,"ng_psi":null,"ng_vehicle_class":null,"access_days_time_fr":null,"intersection_directions_fr":null,"bd_blends_fr":null,"groups_with_access_code_fr":"Public","ev_pricing_fr":null,"ev_network_ids":{"station":["USCPIL640371"],"posts":["861481","861491"]},"distance":2.19439,"distance_km":3.53153}]}'
+  recorded_at: Fri, 17 Sep 2021 17:15:39 GMT
+- request:
+    method: get
+    uri: http://www.mapquestapi.com/directions/v2/route?from=5224%20W%2025th%20Ave,%20Denver,%20CO%2080214&key=10NnpNgxoP70IBNuOvmwmG2OKWoJMnSW&to=1985%20Sheridan%20Blvd.,%20Edgewater,%2080214
+    body:
+      encoding: US-ASCII
+      string: ''
+    headers:
+      User-Agent:
+      - Faraday v1.7.2
+      Accept-Encoding:
+      - gzip;q=1.0,deflate;q=0.6,identity;q=0.3
+      Accept:
+      - "*/*"
+  response:
+    status:
+      code: 200
+      message: ''
+    headers:
+      Date:
+      - Fri, 17 Sep 2021 17:15:39 GMT
+      Content-Type:
+      - application/json;charset=UTF-8
+      Content-Length:
+      - '4807'
+      Set-Cookie:
+      - JSESSIONID=EB3C3616EEE9E04622E083F59A6AB08B; Path=/directions; HttpOnly
+      Expires:
+      - Mon, 20 Dec 1998 01:00:00 GMT
+      Last-Modified:
+      - Fri, 17 Sep 2021 17:15:39 GMT
+      Cache-Control:
+      - no-cache, must-revalidate
+      Pragma:
+      - no-cache
+      Access-Control-Allow-Origin:
+      - "*"
+      Access-Control-Allow-Methods:
+      - OPTIONS,GET,POST
+      Status:
+      - success
+      Transactionweight:
+      - '1'
+    body:
+      encoding: ASCII-8BIT
+      string: !binary |-
+        eyJyb3V0ZSI6eyJoYXNUb2xsUm9hZCI6ZmFsc2UsImhhc0JyaWRnZSI6ZmFsc2UsImJvdW5kaW5nQm94Ijp7ImxyIjp7ImxuZyI6LTEwNS4wNTMyMjMsImxhdCI6MzkuNzQ3NDl9LCJ1bCI6eyJsbmciOi0xMDUuMDU0MDAxLCJsYXQiOjM5Ljc1MzAzM319LCJkaXN0YW5jZSI6MC40MjMsImhhc1RpbWVkUmVzdHJpY3Rpb24iOmZhbHNlLCJoYXNUdW5uZWwiOmZhbHNlLCJoYXNIaWdod2F5IjpmYWxzZSwiY29tcHV0ZWRXYXlwb2ludHMiOltdLCJyb3V0ZUVycm9yIjp7ImVycm9yQ29kZSI6LTQwMCwibWVzc2FnZSI6IiJ9LCJmb3JtYXR0ZWRUaW1lIjoiMDA6MDE6MTYiLCJzZXNzaW9uSWQiOiI2MTQ0Y2QzYi0wMmI1LTVmMjEtMDJiNC0zNmY1LTBhMmI5NWJmMDIzNSIsImhhc0FjY2Vzc1Jlc3RyaWN0aW9uIjpmYWxzZSwicmVhbFRpbWUiOjg2LCJoYXNTZWFzb25hbENsb3N1cmUiOmZhbHNlLCJoYXNDb3VudHJ5Q3Jvc3MiOmZhbHNlLCJmdWVsVXNlZCI6MC4wMywibGVncyI6W3siaGFzVG9sbFJvYWQiOmZhbHNlLCJoYXNCcmlkZ2UiOmZhbHNlLCJkZXN0TmFycmF0aXZlIjoiIiwiZGlzdGFuY2UiOjAuNDIzLCJoYXNUaW1lZFJlc3RyaWN0aW9uIjpmYWxzZSwiaGFzVHVubmVsIjpmYWxzZSwiaGFzSGlnaHdheSI6ZmFsc2UsImluZGV4IjowLCJmb3JtYXR0ZWRUaW1lIjoiMDA6MDE6MTYiLCJvcmlnSW5kZXgiOjEsImhhc0FjY2Vzc1Jlc3RyaWN0aW9uIjpmYWxzZSwiaGFzU2Vhc29uYWxDbG9zdXJlIjpmYWxzZSwiaGFzQ291bnRyeUNyb3NzIjpmYWxzZSwicm9hZEdyYWRlU3RyYXRlZ3kiOltbXV0sImRlc3RJbmRleCI6LTEsInRpbWUiOjc2LCJoYXNVbnBhdmVkIjpmYWxzZSwib3JpZ05hcnJhdGl2ZSI6IkdvIHNvdXRoIG9uIFNoZXJpZGFuIEJsdmQvQ08tOTUuIiwibWFuZXV2ZXJzIjpbeyJkaXN0YW5jZSI6MC4wNDEsInN0cmVldHMiOlsiVyAyNXRoIEF2ZSJdLCJuYXJyYXRpdmUiOiJTdGFydCBvdXQgZ29pbmcgZWFzdCBvbiBXIDI1dGggQXZlIHRvd2FyZCBTaGVyaWRhbiBCbHZkL0NPLTk1LiIsInR1cm5UeXBlIjoyLCJzdGFydFBvaW50Ijp7ImxuZyI6LTEwNS4wNTQwMDEsImxhdCI6MzkuNzUzMDE3fSwiaW5kZXgiOjAsImZvcm1hdHRlZFRpbWUiOiIwMDowMDozMCIsImRpcmVjdGlvbk5hbWUiOiJFYXN0IiwibWFuZXV2ZXJOb3RlcyI6W10sImxpbmtJZHMiOltdLCJzaWducyI6W10sIm1hcFVybCI6Imh0dHA6Ly93d3cubWFwcXVlc3RhcGkuY29tL3N0YXRpY21hcC92NS9tYXA/a2V5PTEwTm5wTmd4b1A3MElCTnVPdm13bUcyT0tXb0pNblNXJnNpemU9MjI1LDE2MCZsb2NhdGlvbnM9MzkuNzUzMDE3NDI1NTM3MTEsLTEwNS4wNTQwMDA4NTQ0OTIxOXxtYXJrZXItMXx8MzkuNzUzMDMyNjg0MzI2MTcsLTEwNS4wNTMyMzc5MTUwMzkwNnxtYXJrZXItMnx8JmNlbnRlcj0zOS43NTMwMjUwNTQ5MzE2NCwtMTA1LjA1MzYxOTM4NDc2NTYyJmRlZmF1bHRNYXJrZXI9bm9uZSZ6b29tPTE1JnJhbmQ9LTQ1NTExMjk4NSZzZXNzaW9uPTYxNDRjZDNiLTAyYjUtNWYyMS0wMmI0LTM2ZjUtMGEyYjk1YmYwMjM1IiwidHJhbnNwb3J0TW9kZSI6IkFVVE8iLCJhdHRyaWJ1dGVzIjowLCJ0aW1lIjozMCwiaWNvblVybCI6Imh0dHA6Ly9jb250ZW50Lm1xY2RuLmNvbS9tcXNpdGUvdHVybnNpZ25zL2ljb24tZGlycy1zdGFydF9zbS5naWYiLCJkaXJlY3Rpb24iOjh9LHsiZGlzdGFuY2UiOjAuMzgyLCJzdHJlZXRzIjpbIlNoZXJpZGFuIEJsdmQiLCJDTy05NSJdLCJuYXJyYXRpdmUiOiJUdXJuIHJpZ2h0IG9udG8gU2hlcmlkYW4gQmx2ZC9DTy05NS4iLCJ0dXJuVHlwZSI6Miwic3RhcnRQb2ludCI6eyJsbmciOi0xMDUuMDUzMjM4LCJsYXQiOjM5Ljc1MzAzM30sImluZGV4IjoxLCJmb3JtYXR0ZWRUaW1lIjoiMDA6MDA6NDYiLCJkaXJlY3Rpb25OYW1lIjoiU291dGgiLCJtYW5ldXZlck5vdGVzIjpbXSwibGlua0lkcyI6W10sInNpZ25zIjpbeyJleHRyYVRleHQiOiIiLCJ0ZXh0IjoiOTUiLCJ0eXBlIjo1MDUsInVybCI6Imh0dHA6Ly9pY29ucy5tcWNkbi5jb20vaWNvbnMvcnM1MDUucG5nP249OTUiLCJkaXJlY3Rpb24iOjB9XSwibWFwVXJsIjoiaHR0cDovL3d3dy5tYXBxdWVzdGFwaS5jb20vc3RhdGljbWFwL3Y1L21hcD9rZXk9MTBObnBOZ3hvUDcwSUJOdU92bXdtRzJPS1dvSk1uU1cmc2l6ZT0yMjUsMTYwJmxvY2F0aW9ucz0zOS43NTMwMzI2ODQzMjYxNywtMTA1LjA1MzIzNzkxNTAzOTA2fG1hcmtlci0yfHwzOS43NDc0ODk5MjkxOTkyMiwtMTA1LjA1MzIyMjY1NjI1fG1hcmtlci0zfHwmY2VudGVyPTM5Ljc1MDI2MTMwNjc2MjY5NSwtMTA1LjA1MzIzMDI4NTY0NDUzJmRlZmF1bHRNYXJrZXI9bm9uZSZ6b29tPTExJnJhbmQ9LTQ1NTExMjk4NSZzZXNzaW9uPTYxNDRjZDNiLTAyYjUtNWYyMS0wMmI0LTM2ZjUtMGEyYjk1YmYwMjM1IiwidHJhbnNwb3J0TW9kZSI6IkFVVE8iLCJhdHRyaWJ1dGVzIjowLCJ0aW1lIjo0NiwiaWNvblVybCI6Imh0dHA6Ly9jb250ZW50Lm1xY2RuLmNvbS9tcXNpdGUvdHVybnNpZ25zL3JzX3JpZ2h0X3NtLmdpZiIsImRpcmVjdGlvbiI6NH0seyJkaXN0YW5jZSI6MCwic3RyZWV0cyI6W10sIm5hcnJhdGl2ZSI6IjE5ODUgU0hFUklEQU4gQkxWRCBpcyBvbiB0aGUgcmlnaHQuIiwidHVyblR5cGUiOi0xLCJzdGFydFBvaW50Ijp7ImxuZyI6LTEwNS4wNTMyMjMsImxhdCI6MzkuNzQ3NDl9LCJpbmRleCI6MiwiZm9ybWF0dGVkVGltZSI6IjAwOjAwOjAwIiwiZGlyZWN0aW9uTmFtZSI6IiIsIm1hbmV1dmVyTm90ZXMiOltdLCJsaW5rSWRzIjpbXSwic2lnbnMiOltdLCJ0cmFuc3BvcnRNb2RlIjoiQVVUTyIsImF0dHJpYnV0ZXMiOjAsInRpbWUiOjAsImljb25VcmwiOiJodHRwOi8vY29udGVudC5tcWNkbi5jb20vbXFzaXRlL3R1cm5zaWducy9pY29uLWRpcnMtZW5kX3NtLmdpZiIsImRpcmVjdGlvbiI6MH1dLCJoYXNGZXJyeSI6ZmFsc2V9XSwib3B0aW9ucyI6eyJhcnRlcnlXZWlnaHRzIjpbXSwiY3ljbGluZ1JvYWRGYWN0b3IiOjEsInRpbWVUeXBlIjowLCJ1c2VUcmFmZmljIjpmYWxzZSwicmV0dXJuTGlua0RpcmVjdGlvbnMiOmZhbHNlLCJjb3VudHJ5Qm91bmRhcnlEaXNwbGF5Ijp0cnVlLCJlbmhhbmNlZE5hcnJhdGl2ZSI6ZmFsc2UsImxvY2FsZSI6ImVuX1VTIiwidHJ5QXZvaWRMaW5rSWRzIjpbXSwiZHJpdmluZ1N0eWxlIjoyLCJkb1JldmVyc2VHZW9jb2RlIjp0cnVlLCJnZW5lcmFsaXplIjotMSwibXVzdEF2b2lkTGlua0lkcyI6W10sInNpZGVPZlN0cmVldERpc3BsYXkiOnRydWUsInJvdXRlVHlwZSI6IkZBU1RFU1QiLCJhdm9pZFRpbWVkQ29uZGl0aW9ucyI6ZmFsc2UsInJvdXRlTnVtYmVyIjowLCJzaGFwZUZvcm1hdCI6InJhdyIsIm1heFdhbGtpbmdEaXN0YW5jZSI6LTEsImRlc3RpbmF0aW9uTWFuZXV2ZXJEaXNwbGF5Ijp0cnVlLCJ0cmFuc2ZlclBlbmFsdHkiOi0xLCJuYXJyYXRpdmVUeXBlIjoidGV4dCIsIndhbGtpbmdTcGVlZCI6LTEsInVyYmFuQXZvaWRGYWN0b3IiOi0xLCJzdGF0ZUJvdW5kYXJ5RGlzcGxheSI6dHJ1ZSwidW5pdCI6Ik0iLCJoaWdod2F5RWZmaWNpZW5jeSI6MjIsIm1heExpbmtJZCI6MCwibWFuZXV2ZXJQZW5hbHR5IjotMSwiYXZvaWRUcmlwSWRzIjpbXSwiZmlsdGVyWm9uZUZhY3RvciI6LTEsIm1hbm1hcHMiOiJ0cnVlIn0sImxvY2F0aW9ucyI6W3siZHJhZ1BvaW50IjpmYWxzZSwiZGlzcGxheUxhdExuZyI6eyJsbmciOi0xMDUuMDU0MDAxLCJsYXQiOjM5Ljc1MzAxNH0sImFkbWluQXJlYTQiOiJKZWZmZXJzb24iLCJhZG1pbkFyZWE1IjoiRWRnZXdhdGVyIiwicG9zdGFsQ29kZSI6IjgwMjE0LTEyNDIiLCJhZG1pbkFyZWExIjoiVVMiLCJhZG1pbkFyZWEzIjoiQ08iLCJ0eXBlIjoicyIsInNpZGVPZlN0cmVldCI6IkwiLCJnZW9jb2RlUXVhbGl0eUNvZGUiOiJQMUFBQSIsImFkbWluQXJlYTRUeXBlIjoiQ291bnR5IiwibGlua0lkIjo2OTE4MDA1NCwic3RyZWV0IjoiNTIyNCBXIDI1dGggQXZlIiwiYWRtaW5BcmVhNVR5cGUiOiJDaXR5IiwiZ2VvY29kZVF1YWxpdHkiOiJQT0lOVCIsImFkbWluQXJlYTFUeXBlIjoiQ291bnRyeSIsImFkbWluQXJlYTNUeXBlIjoiU3RhdGUiLCJsYXRMbmciOnsibG5nIjotMTA1LjA1Mzk5OSwibGF0IjozOS43NTMwMTR9fSx7ImRyYWdQb2ludCI6ZmFsc2UsImRpc3BsYXlMYXRMbmciOnsibG5nIjotMTA1LjA1MzIyMywibGF0IjozOS43NDc0OX0sImFkbWluQXJlYTQiOiJKZWZmZXJzb24iLCJhZG1pbkFyZWE1IjoiRWRnZXdhdGVyIiwicG9zdGFsQ29kZSI6IjgwMjE0LTEzMjUiLCJhZG1pbkFyZWExIjoiVVMiLCJhZG1pbkFyZWEzIjoiQ08iLCJ0eXBlIjoicyIsInNpZGVPZlN0cmVldCI6IkwiLCJnZW9jb2RlUXVhbGl0eUNvZGUiOiJMMUFBQSIsImFkbWluQXJlYTRUeXBlIjoiQ291bnR5IiwibGlua0lkIjoyNzEyNjU0Nywic3RyZWV0IjoiMTk4NSBTaGVyaWRhbiBCbHZkIiwiYWRtaW5BcmVhNVR5cGUiOiJDaXR5IiwiZ2VvY29kZVF1YWxpdHkiOiJBRERSRVNTIiwiYWRtaW5BcmVhMVR5cGUiOiJDb3VudHJ5IiwiYWRtaW5BcmVhM1R5cGUiOiJTdGF0ZSIsImxhdExuZyI6eyJsbmciOi0xMDUuMDUzMjE5LCJsYXQiOjM5Ljc0NzQ4OX19XSwidGltZSI6NzYsImhhc1VucGF2ZWQiOmZhbHNlLCJsb2NhdGlvblNlcXVlbmNlIjpbMCwxXSwiaGFzRmVycnkiOmZhbHNlfSwiaW5mbyI6eyJzdGF0dXNjb2RlIjowLCJjb3B5cmlnaHQiOnsiaW1hZ2VBbHRUZXh0IjoiwqkgMjAyMSBNYXBRdWVzdCwgSW5jLiIsImltYWdlVXJsIjoiaHR0cDovL2FwaS5tcWNkbi5jb20vcmVzL21xbG9nby5naWYiLCJ0ZXh0IjoiwqkgMjAyMSBNYXBRdWVzdCwgSW5jLiJ9LCJtZXNzYWdlcyI6W119fQ==
+  recorded_at: Fri, 17 Sep 2021 17:15:39 GMT
+- request:
+    method: get
+    uri: https://developer.nrel.gov/api/alt-fuel-stations/v1/nearest?api_key=dNmrHpk1qtfNawZH8z7nPpyemWP3DXyvt4Zrer4m&format=json&location=5224%20W%2025th%20Ave,%20Denver,%20CO%2080214
+    body:
+      encoding: US-ASCII
+      string: ''
+    headers:
+      User-Agent:
+      - Faraday v1.7.2
+      Accept-Encoding:
+      - gzip;q=1.0,deflate;q=0.6,identity;q=0.3
+      Accept:
+      - "*/*"
+  response:
+    status:
+      code: 200
+      message: OK
+    headers:
+      Date:
+      - Fri, 17 Sep 2021 17:15:40 GMT
+      Content-Type:
+      - application/json; charset=utf-8
+      Transfer-Encoding:
+      - chunked
+      Connection:
+      - keep-alive
+      Vary:
+      - Accept-Encoding
+      - Accept-Encoding
+      - Origin
+      X-Ratelimit-Limit:
+      - '1000'
+      X-Ratelimit-Remaining:
+      - '983'
+      X-Frame-Options:
+      - SAMEORIGIN
+      X-Xss-Protection:
+      - 1; mode=block
+      X-Content-Type-Options:
+      - nosniff
+      X-Download-Options:
+      - noopen
+      X-Permitted-Cross-Domain-Policies:
+      - none
+      Referrer-Policy:
+      - strict-origin-when-cross-origin
+      Access-Control-Allow-Origin:
+      - "*"
+      Access-Control-Allow-Methods:
+      - GET, POST, OPTIONS
+      Access-Control-Max-Age:
+      - '86400'
+      Last-Modified:
+      - Fri, 17 Sep 2021 17:15:40 GMT
+      Cache-Control:
+      - max-age=0, private, must-revalidate
+      X-Request-Id:
+      - 6f13719475f248652bdadc8a43ac7cfc
+      X-Runtime:
+      - '0.266355'
       Strict-Transport-Security:
       - max-age=31536000; preload
       - max-age=31622400
@@ -166,5 +380,52 @@ http_interactions:
         SOLAR 1 888 FEDERAL R","station_phone":"888-758-4389","updated_at":"2021-09-17T00:31:20Z","facility_type":null,"geocode_status":"GPS","latitude":39.730542,"longitude":-105.024841,"city":"Denver","intersection_directions":null,"plus4":null,"state":"CO","street_address":"888
         Federal Blvd","zip":"80204","country":"US","bd_blends":null,"cng_dispenser_num":null,"cng_fill_type_code":null,"cng_psi":null,"cng_renewable_source":null,"cng_total_compression":null,"cng_total_storage":null,"cng_vehicle_class":null,"e85_blender_pump":null,"e85_other_ethanol_blends":null,"ev_connector_types":["J1772"],"ev_dc_fast_num":null,"ev_level1_evse_num":null,"ev_level2_evse_num":2,"ev_network":"ChargePoint
         Network","ev_network_web":"http://www.chargepoint.com/","ev_other_evse":null,"ev_pricing":null,"ev_renewable_source":null,"hy_is_retail":null,"hy_pressures":null,"hy_standards":null,"hy_status_link":null,"lng_renewable_source":null,"lng_vehicle_class":null,"lpg_primary":null,"lpg_nozzle_types":null,"ng_fill_type_code":null,"ng_psi":null,"ng_vehicle_class":null,"access_days_time_fr":null,"intersection_directions_fr":null,"bd_blends_fr":null,"groups_with_access_code_fr":"Public","ev_pricing_fr":null,"ev_network_ids":{"station":["USCPIL640371"],"posts":["861481","861491"]},"distance":2.19439,"distance_km":3.53153}]}'
-  recorded_at: Fri, 17 Sep 2021 16:42:33 GMT
+  recorded_at: Fri, 17 Sep 2021 17:15:40 GMT
+- request:
+    method: get
+    uri: http://www.mapquestapi.com/directions/v2/route?from=5224%20W%2025th%20Ave,%20Denver,%20CO%2080214&key=10NnpNgxoP70IBNuOvmwmG2OKWoJMnSW&to=1985%20Sheridan%20Blvd.,%20Edgewater,%2080214
+    body:
+      encoding: US-ASCII
+      string: ''
+    headers:
+      User-Agent:
+      - Faraday v1.7.2
+      Accept-Encoding:
+      - gzip;q=1.0,deflate;q=0.6,identity;q=0.3
+      Accept:
+      - "*/*"
+  response:
+    status:
+      code: 200
+      message: ''
+    headers:
+      Date:
+      - Fri, 17 Sep 2021 17:15:41 GMT
+      Content-Type:
+      - application/json;charset=UTF-8
+      Content-Length:
+      - '4809'
+      Set-Cookie:
+      - JSESSIONID=F521CC8395ABD9ECD5E79D2118460597; Path=/directions; HttpOnly
+      Expires:
+      - Mon, 20 Dec 1998 01:00:00 GMT
+      Last-Modified:
+      - Fri, 17 Sep 2021 17:15:41 GMT
+      Cache-Control:
+      - no-cache, must-revalidate
+      Pragma:
+      - no-cache
+      Access-Control-Allow-Origin:
+      - "*"
+      Access-Control-Allow-Methods:
+      - OPTIONS,GET,POST
+      Status:
+      - success
+      Transactionweight:
+      - '1'
+    body:
+      encoding: ASCII-8BIT
+      string: !binary |-
+        eyJyb3V0ZSI6eyJoYXNUb2xsUm9hZCI6ZmFsc2UsImhhc0JyaWRnZSI6ZmFsc2UsImJvdW5kaW5nQm94Ijp7ImxyIjp7ImxuZyI6LTEwNS4wNTMyMjMsImxhdCI6MzkuNzQ3NDl9LCJ1bCI6eyJsbmciOi0xMDUuMDU0MDAxLCJsYXQiOjM5Ljc1MzAzM319LCJkaXN0YW5jZSI6MC40MjMsImhhc1RpbWVkUmVzdHJpY3Rpb24iOmZhbHNlLCJoYXNUdW5uZWwiOmZhbHNlLCJoYXNIaWdod2F5IjpmYWxzZSwiY29tcHV0ZWRXYXlwb2ludHMiOltdLCJyb3V0ZUVycm9yIjp7ImVycm9yQ29kZSI6LTQwMCwibWVzc2FnZSI6IiJ9LCJmb3JtYXR0ZWRUaW1lIjoiMDA6MDE6MTYiLCJzZXNzaW9uSWQiOiI2MTQ0Y2QzZC0wMDNlLTVmMjEtMDJiNC0zNmY1LTBhMmI5NWJmMDIzNSIsImhhc0FjY2Vzc1Jlc3RyaWN0aW9uIjpmYWxzZSwicmVhbFRpbWUiOjg2LCJoYXNTZWFzb25hbENsb3N1cmUiOmZhbHNlLCJoYXNDb3VudHJ5Q3Jvc3MiOmZhbHNlLCJmdWVsVXNlZCI6MC4wMywibGVncyI6W3siaGFzVG9sbFJvYWQiOmZhbHNlLCJoYXNCcmlkZ2UiOmZhbHNlLCJkZXN0TmFycmF0aXZlIjoiIiwiZGlzdGFuY2UiOjAuNDIzLCJoYXNUaW1lZFJlc3RyaWN0aW9uIjpmYWxzZSwiaGFzVHVubmVsIjpmYWxzZSwiaGFzSGlnaHdheSI6ZmFsc2UsImluZGV4IjowLCJmb3JtYXR0ZWRUaW1lIjoiMDA6MDE6MTYiLCJvcmlnSW5kZXgiOjEsImhhc0FjY2Vzc1Jlc3RyaWN0aW9uIjpmYWxzZSwiaGFzU2Vhc29uYWxDbG9zdXJlIjpmYWxzZSwiaGFzQ291bnRyeUNyb3NzIjpmYWxzZSwicm9hZEdyYWRlU3RyYXRlZ3kiOltbXV0sImRlc3RJbmRleCI6LTEsInRpbWUiOjc2LCJoYXNVbnBhdmVkIjpmYWxzZSwib3JpZ05hcnJhdGl2ZSI6IkdvIHNvdXRoIG9uIFNoZXJpZGFuIEJsdmQvQ08tOTUuIiwibWFuZXV2ZXJzIjpbeyJkaXN0YW5jZSI6MC4wNDEsInN0cmVldHMiOlsiVyAyNXRoIEF2ZSJdLCJuYXJyYXRpdmUiOiJTdGFydCBvdXQgZ29pbmcgZWFzdCBvbiBXIDI1dGggQXZlIHRvd2FyZCBTaGVyaWRhbiBCbHZkL0NPLTk1LiIsInR1cm5UeXBlIjoyLCJzdGFydFBvaW50Ijp7ImxuZyI6LTEwNS4wNTQwMDEsImxhdCI6MzkuNzUzMDE3fSwiaW5kZXgiOjAsImZvcm1hdHRlZFRpbWUiOiIwMDowMDozMCIsImRpcmVjdGlvbk5hbWUiOiJFYXN0IiwibWFuZXV2ZXJOb3RlcyI6W10sImxpbmtJZHMiOltdLCJzaWducyI6W10sIm1hcFVybCI6Imh0dHA6Ly93d3cubWFwcXVlc3RhcGkuY29tL3N0YXRpY21hcC92NS9tYXA/a2V5PTEwTm5wTmd4b1A3MElCTnVPdm13bUcyT0tXb0pNblNXJnNpemU9MjI1LDE2MCZsb2NhdGlvbnM9MzkuNzUzMDE3NDI1NTM3MTEsLTEwNS4wNTQwMDA4NTQ0OTIxOXxtYXJrZXItMXx8MzkuNzUzMDMyNjg0MzI2MTcsLTEwNS4wNTMyMzc5MTUwMzkwNnxtYXJrZXItMnx8JmNlbnRlcj0zOS43NTMwMjUwNTQ5MzE2NCwtMTA1LjA1MzYxOTM4NDc2NTYyJmRlZmF1bHRNYXJrZXI9bm9uZSZ6b29tPTE1JnJhbmQ9LTEwOTIyNTcxNjQmc2Vzc2lvbj02MTQ0Y2QzZC0wMDNlLTVmMjEtMDJiNC0zNmY1LTBhMmI5NWJmMDIzNSIsInRyYW5zcG9ydE1vZGUiOiJBVVRPIiwiYXR0cmlidXRlcyI6MCwidGltZSI6MzAsImljb25VcmwiOiJodHRwOi8vY29udGVudC5tcWNkbi5jb20vbXFzaXRlL3R1cm5zaWducy9pY29uLWRpcnMtc3RhcnRfc20uZ2lmIiwiZGlyZWN0aW9uIjo4fSx7ImRpc3RhbmNlIjowLjM4Miwic3RyZWV0cyI6WyJTaGVyaWRhbiBCbHZkIiwiQ08tOTUiXSwibmFycmF0aXZlIjoiVHVybiByaWdodCBvbnRvIFNoZXJpZGFuIEJsdmQvQ08tOTUuIiwidHVyblR5cGUiOjIsInN0YXJ0UG9pbnQiOnsibG5nIjotMTA1LjA1MzIzOCwibGF0IjozOS43NTMwMzN9LCJpbmRleCI6MSwiZm9ybWF0dGVkVGltZSI6IjAwOjAwOjQ2IiwiZGlyZWN0aW9uTmFtZSI6IlNvdXRoIiwibWFuZXV2ZXJOb3RlcyI6W10sImxpbmtJZHMiOltdLCJzaWducyI6W3siZXh0cmFUZXh0IjoiIiwidGV4dCI6Ijk1IiwidHlwZSI6NTA1LCJ1cmwiOiJodHRwOi8vaWNvbnMubXFjZG4uY29tL2ljb25zL3JzNTA1LnBuZz9uPTk1IiwiZGlyZWN0aW9uIjowfV0sIm1hcFVybCI6Imh0dHA6Ly93d3cubWFwcXVlc3RhcGkuY29tL3N0YXRpY21hcC92NS9tYXA/a2V5PTEwTm5wTmd4b1A3MElCTnVPdm13bUcyT0tXb0pNblNXJnNpemU9MjI1LDE2MCZsb2NhdGlvbnM9MzkuNzUzMDMyNjg0MzI2MTcsLTEwNS4wNTMyMzc5MTUwMzkwNnxtYXJrZXItMnx8MzkuNzQ3NDg5OTI5MTk5MjIsLTEwNS4wNTMyMjI2NTYyNXxtYXJrZXItM3x8JmNlbnRlcj0zOS43NTAyNjEzMDY3NjI2OTUsLTEwNS4wNTMyMzAyODU2NDQ1MyZkZWZhdWx0TWFya2VyPW5vbmUmem9vbT0xMSZyYW5kPS0xMDkyMjU3MTY0JnNlc3Npb249NjE0NGNkM2QtMDAzZS01ZjIxLTAyYjQtMzZmNS0wYTJiOTViZjAyMzUiLCJ0cmFuc3BvcnRNb2RlIjoiQVVUTyIsImF0dHJpYnV0ZXMiOjAsInRpbWUiOjQ2LCJpY29uVXJsIjoiaHR0cDovL2NvbnRlbnQubXFjZG4uY29tL21xc2l0ZS90dXJuc2lnbnMvcnNfcmlnaHRfc20uZ2lmIiwiZGlyZWN0aW9uIjo0fSx7ImRpc3RhbmNlIjowLCJzdHJlZXRzIjpbXSwibmFycmF0aXZlIjoiMTk4NSBTSEVSSURBTiBCTFZEIGlzIG9uIHRoZSByaWdodC4iLCJ0dXJuVHlwZSI6LTEsInN0YXJ0UG9pbnQiOnsibG5nIjotMTA1LjA1MzIyMywibGF0IjozOS43NDc0OX0sImluZGV4IjoyLCJmb3JtYXR0ZWRUaW1lIjoiMDA6MDA6MDAiLCJkaXJlY3Rpb25OYW1lIjoiIiwibWFuZXV2ZXJOb3RlcyI6W10sImxpbmtJZHMiOltdLCJzaWducyI6W10sInRyYW5zcG9ydE1vZGUiOiJBVVRPIiwiYXR0cmlidXRlcyI6MCwidGltZSI6MCwiaWNvblVybCI6Imh0dHA6Ly9jb250ZW50Lm1xY2RuLmNvbS9tcXNpdGUvdHVybnNpZ25zL2ljb24tZGlycy1lbmRfc20uZ2lmIiwiZGlyZWN0aW9uIjowfV0sImhhc0ZlcnJ5IjpmYWxzZX1dLCJvcHRpb25zIjp7ImFydGVyeVdlaWdodHMiOltdLCJjeWNsaW5nUm9hZEZhY3RvciI6MSwidGltZVR5cGUiOjAsInVzZVRyYWZmaWMiOmZhbHNlLCJyZXR1cm5MaW5rRGlyZWN0aW9ucyI6ZmFsc2UsImNvdW50cnlCb3VuZGFyeURpc3BsYXkiOnRydWUsImVuaGFuY2VkTmFycmF0aXZlIjpmYWxzZSwibG9jYWxlIjoiZW5fVVMiLCJ0cnlBdm9pZExpbmtJZHMiOltdLCJkcml2aW5nU3R5bGUiOjIsImRvUmV2ZXJzZUdlb2NvZGUiOnRydWUsImdlbmVyYWxpemUiOi0xLCJtdXN0QXZvaWRMaW5rSWRzIjpbXSwic2lkZU9mU3RyZWV0RGlzcGxheSI6dHJ1ZSwicm91dGVUeXBlIjoiRkFTVEVTVCIsImF2b2lkVGltZWRDb25kaXRpb25zIjpmYWxzZSwicm91dGVOdW1iZXIiOjAsInNoYXBlRm9ybWF0IjoicmF3IiwibWF4V2Fsa2luZ0Rpc3RhbmNlIjotMSwiZGVzdGluYXRpb25NYW5ldXZlckRpc3BsYXkiOnRydWUsInRyYW5zZmVyUGVuYWx0eSI6LTEsIm5hcnJhdGl2ZVR5cGUiOiJ0ZXh0Iiwid2Fsa2luZ1NwZWVkIjotMSwidXJiYW5Bdm9pZEZhY3RvciI6LTEsInN0YXRlQm91bmRhcnlEaXNwbGF5Ijp0cnVlLCJ1bml0IjoiTSIsImhpZ2h3YXlFZmZpY2llbmN5IjoyMiwibWF4TGlua0lkIjowLCJtYW5ldXZlclBlbmFsdHkiOi0xLCJhdm9pZFRyaXBJZHMiOltdLCJmaWx0ZXJab25lRmFjdG9yIjotMSwibWFubWFwcyI6InRydWUifSwibG9jYXRpb25zIjpbeyJkcmFnUG9pbnQiOmZhbHNlLCJkaXNwbGF5TGF0TG5nIjp7ImxuZyI6LTEwNS4wNTQwMDEsImxhdCI6MzkuNzUzMDE0fSwiYWRtaW5BcmVhNCI6IkplZmZlcnNvbiIsImFkbWluQXJlYTUiOiJFZGdld2F0ZXIiLCJwb3N0YWxDb2RlIjoiODAyMTQtMTI0MiIsImFkbWluQXJlYTEiOiJVUyIsImFkbWluQXJlYTMiOiJDTyIsInR5cGUiOiJzIiwic2lkZU9mU3RyZWV0IjoiTCIsImdlb2NvZGVRdWFsaXR5Q29kZSI6IlAxQUFBIiwiYWRtaW5BcmVhNFR5cGUiOiJDb3VudHkiLCJsaW5rSWQiOjY5MTgwMDU0LCJzdHJlZXQiOiI1MjI0IFcgMjV0aCBBdmUiLCJhZG1pbkFyZWE1VHlwZSI6IkNpdHkiLCJnZW9jb2RlUXVhbGl0eSI6IlBPSU5UIiwiYWRtaW5BcmVhMVR5cGUiOiJDb3VudHJ5IiwiYWRtaW5BcmVhM1R5cGUiOiJTdGF0ZSIsImxhdExuZyI6eyJsbmciOi0xMDUuMDUzOTk5LCJsYXQiOjM5Ljc1MzAxNH19LHsiZHJhZ1BvaW50IjpmYWxzZSwiZGlzcGxheUxhdExuZyI6eyJsbmciOi0xMDUuMDUzMjIzLCJsYXQiOjM5Ljc0NzQ5fSwiYWRtaW5BcmVhNCI6IkplZmZlcnNvbiIsImFkbWluQXJlYTUiOiJFZGdld2F0ZXIiLCJwb3N0YWxDb2RlIjoiODAyMTQtMTMyNSIsImFkbWluQXJlYTEiOiJVUyIsImFkbWluQXJlYTMiOiJDTyIsInR5cGUiOiJzIiwic2lkZU9mU3RyZWV0IjoiTCIsImdlb2NvZGVRdWFsaXR5Q29kZSI6IkwxQUFBIiwiYWRtaW5BcmVhNFR5cGUiOiJDb3VudHkiLCJsaW5rSWQiOjI3MTI2NTQ3LCJzdHJlZXQiOiIxOTg1IFNoZXJpZGFuIEJsdmQiLCJhZG1pbkFyZWE1VHlwZSI6IkNpdHkiLCJnZW9jb2RlUXVhbGl0eSI6IkFERFJFU1MiLCJhZG1pbkFyZWExVHlwZSI6IkNvdW50cnkiLCJhZG1pbkFyZWEzVHlwZSI6IlN0YXRlIiwibGF0TG5nIjp7ImxuZyI6LTEwNS4wNTMyMTksImxhdCI6MzkuNzQ3NDg5fX1dLCJ0aW1lIjo3NiwiaGFzVW5wYXZlZCI6ZmFsc2UsImxvY2F0aW9uU2VxdWVuY2UiOlswLDFdLCJoYXNGZXJyeSI6ZmFsc2V9LCJpbmZvIjp7InN0YXR1c2NvZGUiOjAsImNvcHlyaWdodCI6eyJpbWFnZUFsdFRleHQiOiLCqSAyMDIxIE1hcFF1ZXN0LCBJbmMuIiwiaW1hZ2VVcmwiOiJodHRwOi8vYXBpLm1xY2RuLmNvbS9yZXMvbXFsb2dvLmdpZiIsInRleHQiOiLCqSAyMDIxIE1hcFF1ZXN0LCBJbmMuIn0sIm1lc3NhZ2VzIjpbXX19
+  recorded_at: Fri, 17 Sep 2021 17:15:40 GMT
 recorded_with: VCR 6.0.0

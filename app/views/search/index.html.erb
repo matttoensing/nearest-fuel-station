@@ -1,0 +1,16 @@
+<h3>Search Result</h3>
+
+<div id="station">
+  <p>Station Name: <%= @station.name %></p>
+  <p>Address: <%= @station.address %></p>
+  <p>Fuel Type: <%= @station.fuel_type %></p>
+  <p>Access Time: <%= @station.access_time %></p>
+</div>
+
+<div id="directions">
+  <p>Distance: <%= @route.distance %> Miles</p>
+  <p>Estimated Travel Time: <%= @route.time %> Miles</p>
+  <% @route.directions.each do |direction| %>
+    <p><%= direction %></p>
+  <% end %>
+</div>

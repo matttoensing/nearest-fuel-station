@@ -3,7 +3,7 @@ require 'rails_helper'
  RSpec.describe 'seaech index' do
    it 'user can perform a search and find nearest fueling station with attributes and distance to station with travel time', :vcr do
      station = StationFacade.create_station('5224 W 25th Ave, Denver, CO 80214')
-     # directions = DirectionsFacade.create_directions('')
+     route = RouteFacade.create_route('5224 W 25th Ave, Denver, CO 80214', station.address)
 
      visit '/'
 
@@ -13,16 +13,18 @@ require 'rails_helper'
      expect(current_path).to eq('/search')
 
      within('#station') do
-       expect(page).to eq(station.name)
-       expect(page).to eq(station.address)
-       expect(page).to eq(station.fuel_type)
-       expect(page).to eq(station.access_time)
+       expect(page).to have_content(station.name)
+       expect(page).to have_content(station.address)
+       expect(page).to have_content(station.fuel_type)
+       expect(page).to have_content(station.access_time)
      end
 
      within('#directions') do
-       expect(page).to eq(directions.distance)
-       expect(page).to eq(directions.travel_time)
-       expect(page).to eq(directions.instructions)
+       expect(page).to have_content(route.distance)
+       expect(page).to have_content(route.time)
+       route.directions.each do |direction|
+         expect(page).to have_content(direction)
+       end
      end
 #      As a user
 # When I visit "/"
