@@ -9,8 +9,9 @@
 
 <div id="directions">
   <p>Distance: <%= @route.distance %> Miles</p>
-  <p>Estimated Travel Time: <%= @route.time %> Miles</p>
+  <p>Estimated Travel Time: <%= @route.time %></p>
+  <p>Directions: </p>
   <% @route.directions.each do |direction| %>
-    <p><%= direction %></p>
+    <p><%= @route.directions.index(direction) + 1 %>. <%= direction %></p>
   <% end %>
 </div>
