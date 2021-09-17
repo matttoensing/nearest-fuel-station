@@ -8,7 +8,7 @@
 </div>
 
 <div id="directions">
-  <p>Distance: <%= @route.distance %> Miles</p>
+  <p>Distance: <%= @route.distance.round(2) %> Miles</p>
   <p>Estimated Travel Time: <%= @route.time %></p>
   <p>Directions: </p>
   <% @route.directions.each do |direction| %>

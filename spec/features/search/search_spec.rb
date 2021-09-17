@@ -20,7 +20,7 @@ require 'rails_helper'
      end
 
      within('#directions') do
-       expect(page).to have_content(route.distance)
+       expect(page).to have_content(route.distance.round(2))
        expect(page).to have_content(route.time)
        route.directions.each do |direction|
          expect(page).to have_content(direction)
