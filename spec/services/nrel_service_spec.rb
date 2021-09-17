@@ -13,6 +13,8 @@ require 'rails_helper'
      expect(service[:fuel_stations][0]).to have_key(:station_name)
      expect(service[:fuel_stations][0][:station_name].class).to eq(String)
      expect(service[:fuel_stations][0]).to have_key(:access_days_time)
+     expect(service[:fuel_stations][0][:access_days_time].class).to eq(String)
      expect(service[:fuel_stations][0]).to have_key(:fuel_type_code)
+     expect(service[:fuel_stations][0][:fuel_type_code].class).to eq(String)
    end
  end
